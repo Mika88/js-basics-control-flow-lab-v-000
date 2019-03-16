@@ -28,5 +28,6 @@ function switchOnCharmFromTip(tip) {
     default:
         reaction = 'Bye.';
         break;
-}
+  }
+  return reaction
 }
