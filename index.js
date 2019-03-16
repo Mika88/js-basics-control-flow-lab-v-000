@@ -30,5 +30,3 @@ function switchOnCharmFromTip(tip) {
         break;
 }
 }
-
-
