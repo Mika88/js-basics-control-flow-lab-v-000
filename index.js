@@ -16,7 +16,19 @@ function ternaryCheckCity(city) {
   return result
 }
 
+function switchOnCharmFromTip(tip) {
+  let reaction
+  switch (tip) {
+    case 'generous':
+        reaction = 'Thank you so much.';
+        break;
+    case 'not as generous':
+        reaction = 'Thank you.';
+        break;
+    default:
+        reaction = 'Bye.';
+        break;
+}
+}
 
-const isAdult = age >= 18 ? true : false;
 
-isAdult;
