@@ -10,3 +10,13 @@ function scuberGreetingForFeet(someNumber) {
   }
   return result
 }
+
+function ternaryCheckCity(city) {
+  let result = city === 'NYC' ? 'Ok, sounds good.' : 'No go.';
+  return result
+}
+
+ 
+const isAdult = age >= 18 ? true : false;
+ 
+isAdult;
