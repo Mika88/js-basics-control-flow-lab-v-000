@@ -16,7 +16,7 @@ function ternaryCheckCity(city) {
   return result
 }
 
- 
+
 const isAdult = age >= 18 ? true : false;
- 
+
 isAdult;
